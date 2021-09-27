@@ -8,7 +8,7 @@ function calculateFizzBuzz()
     fizzBuzzError.innerHTML = "";
     document.getElementById("fizzbuzz-table").innerHTML = "";
 
-    // Checks to be sure that the input value is a number greater than 1
+    // Checks to be sure that the input value is a number greater than or equal to 1
     if(nVal >= 1)
     {
         // Creates a new table for every 10 numbers, it makes things more readable
@@ -19,7 +19,7 @@ function calculateFizzBuzz()
     }
     else
     {
-        fizzBuzzError.innerHTML = "ERROR: value must be a number greater than 1"
+        fizzBuzzError.innerHTML = "ERROR: value must be a number greater than or equal to 1"
     }
 }
 
